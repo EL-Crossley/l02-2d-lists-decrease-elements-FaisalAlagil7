@@ -1,4 +1,13 @@
 # Put your function here
+def decreaseElements(nums):
+    result = []
+    for i in nums:
+        array = []
+        for x in i:
+            array.append(x - 1)
+        result.append(array)
+    return result
+
 
 
 # testing
